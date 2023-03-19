@@ -1,0 +1,161 @@
+ul,
+li {
+  list-style-type: none;
+}
+
+/* 콜라 선택창 */
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.item1 {
+  background-color: #fff;
+  width: 94px;
+  border-radius: 10px;
+  border: 3px solid #fff;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+  font-size: 9px;
+}
+
+.item1:hover {
+  border: 3px solid #6327fe;
+  border-radius: 10px;
+}
+
+.item1 img {
+  display: block;
+  margin: 11px auto 6px auto;
+  width: 36px;
+}
+
+.item1 p {
+  text-align: center;
+  margin: 0 auto;
+}
+.price {
+  background-color: #6327fe;
+  border: 0;
+  border-radius: 50px;
+  width: 70px;
+  color: #fff;
+  font-size: 12px;
+  padding: 5px 15px;
+  margin: 6px 11px 9px 9px;
+}
+
+/* 금액 표시창 */
+.select-container {
+  display: grid;
+  grid-template-columns: 200px 94px;
+  grid-template-rows: 33px 33px 106px;
+  gap: 11px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.balance {
+  /* display: grid; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  background-color: #eae8fe;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.return,
+.btn-money {
+  /* display: grid; */
+  background-color: #fff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+  border: 0 solid #fff;
+  border-radius: 5px;
+  font-size: 13px;
+  font-family: "Noto Sans KR", sans-serif;
+  color: #000;
+  box-sizing: border-box;
+}
+
+.btn-get {
+  /* display: grid; */
+  background-color: #6327fe;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+  border: 0 solid #6327fe;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: "Noto Sans KR", sans-serif;
+  color: #fff;
+}
+
+.input-money {
+  /* display: grid; */
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+}
+
+.input-money::placeholder {
+  color: #bdbdbd;
+  font-size: 13px;
+  font-family: "Noto Sans KR", sans-serif;
+  padding-left: 6px;
+}
+
+/* 구매대기창 */
+
+.buylist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  width: 200px;
+  height: 106px;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  background-color: #eae8fe;
+  box-sizing: border-box;
+  overflow: auto;
+  padding: 12px 0;
+}
+
+.buylist-cola {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 170px;
+  height: 46px;
+  gap: 12px;
+  padding: 6px 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 0;
+  border-radius: 5px;
+  font-size: 9px;
+}
+
+.buylist-cola img {
+  width: 18px;
+}
+
+.menu-blank {
+  width: 5px;
+}
+
+.ea {
+  background-color: #fff;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

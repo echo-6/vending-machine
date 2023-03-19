@@ -1,0 +1,68 @@
+.get {
+  display: ;
+  padding: 25px 27px;
+}
+
+.get-cola {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.total-price {
+  font-size: 12px;
+  text-align: right;
+}
+
+.buylist-get {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  width: 306px;
+  height: 364px;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  background-color: #eae8fe;
+  box-sizing: border-box;
+  overflow: auto;
+  padding: 12px 0;
+  margin: 13px 0 6px 0;
+}
+
+.buylist-cola2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 276px;
+  height: 46px;
+  gap: 12px;
+  padding: 6px 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 0;
+  border-radius: 5px;
+  font-size: 9px;
+}
+
+.buylist-cola2 img {
+  width: 18px;
+}
+
+.menu-blank2 {
+  width: 100px;
+}
+
+/*
+.ea {
+  background-color: #fff;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */

@@ -1,0 +1,72 @@
+/* Header */
+.header-wrap {
+  width: 386px;
+  /* height: 204px; */
+  margin: auto;
+}
+
+.logo {
+  width: 386px;
+  /* input-security: 386 / 180; */
+}
+
+/* Body Grid */
+.container {
+  width: 748px;
+  margin: 44px auto 44px auto;
+  display: grid;
+  grid-template-areas:
+    "a b"
+    "a c";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50px;
+  gap: 28px;
+}
+
+.menu {
+  grid-area: a;
+  background: #fff;
+  padding-top: 31px;
+  padding-bottom: 28px;
+}
+
+.cash {
+  grid-area: b;
+  background: #fff;
+}
+
+.get {
+  grid-area: c;
+  background: #fff;
+}
+
+/* 이따 조절하기 */
+@media (max-width: 747px) {
+  .container {
+    grid-template-areas:
+      "a"
+      "b"
+      "c";
+    gap: 14px;
+    width: 360px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  .header-wrap {
+    width: 50%;
+  }
+  .logo {
+    width: 100%;
+  }
+}
+
+@media (max-width: 430px) {
+  body {
+    background-color: #fff;
+  }
+  .container {
+    margin: 0 auto 44px auto;
+  }
+}
+
+/* 360px 이하로는 가운데 정렬 되도록 해야함 잘리고 있음!! */

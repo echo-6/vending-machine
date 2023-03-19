@@ -1,0 +1,23 @@
+.cash {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 0;
+}
+
+.cash-inside {
+  /* display: grid; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 306px;
+  padding: 6px 10px;
+  background-color: #eae8fe;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.cash2 {
+  font-weight: 700;
+}
