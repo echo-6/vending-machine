@@ -136,13 +136,21 @@ li {
   font-size: 9px;
 }
 
+.cola-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 124px;
+}
 .buylist-cola img {
+  display: block;
   width: 18px;
 }
 
-.menu-blank {
+/* .menu-blank {
   width: 3px;
-}
+} */
 
 .ea {
   background-color: #fff;
