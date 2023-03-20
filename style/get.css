@@ -1,5 +1,4 @@
 .get {
-  display: ;
   padding: 25px 27px;
 }
 
@@ -46,15 +45,10 @@
   font-size: 9px;
 }
 
-.cola-container2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 230px;
+.buylist-cola2 img {
+  width: 18px;
 }
 
-.buylist-cola2 img {
-  display: block;
-  width: 18px;
+.menu-blank2 {
+  width: 100px;
 }
