@@ -44,6 +44,8 @@ li {
   width: 70px;
   color: #fff;
   font-size: 12px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 500;
   padding: 5px 15px;
   margin: 6px 11px 9px 9px;
 }
@@ -147,10 +149,6 @@ li {
   display: block;
   width: 18px;
 }
-
-/* .menu-blank {
-  width: 3px;
-} */
 
 .ea {
   background-color: #fff;
