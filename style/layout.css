@@ -1,13 +1,11 @@
 /* Header */
 .header-wrap {
   width: 386px;
-  /* height: 204px; */
   margin: auto;
 }
 
 .logo {
   width: 386px;
-  /* input-security: 386 / 180; */
 }
 
 /* Body Grid */

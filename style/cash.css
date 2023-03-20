@@ -6,7 +6,6 @@
 }
 
 .cash-inside {
-  /* display: grid; */
   display: flex;
   justify-content: space-between;
   align-items: center;
